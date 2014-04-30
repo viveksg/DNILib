@@ -10,7 +10,7 @@ import com.lib.DNILib.CheckUpdateAndDownloadService;
 import com.lib.DNILib.DownloadBroadcastReceiver;
 public class SampleMainActivity extends Activity
 {
-  String link="http://billdroid.co.nf/vivek/check_update.php";
+  String link="your_app_update_check_link";
    UpdateCheckBroadcastReceiver ucbr=null;
    DownloadBroadcastReceiver dbr=null;
    Manager manager=null;
