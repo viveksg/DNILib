@@ -50,6 +50,8 @@ See the sample script in Php.
 Specifications for android manifest file
 
 Following permissions are required in android manifest file
+
+
      <uses-permission android:name="android.permission.INTERNET"/>
      <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
      <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
