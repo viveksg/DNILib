@@ -64,7 +64,7 @@ See the sample script in Php.
 
 Specifications for android manifest file
 ========================================
-Following permissions are required in android manifest file
+Following permissions are required in android manifest file (see viveksg/DNILib/SampleAndroidManifest.xml#1)
 
 
      <uses-permission android:name="android.permission.INTERNET"/>
