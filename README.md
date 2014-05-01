@@ -1,10 +1,11 @@
 DNILib
 ======
 
-This library allows to download and install (DNI) new version of android app, which uses this library
+This library allows to download and install (DNI) new version of android app which is using this library
 
 DNILib allows its developers to automatically install new version/updates of their android apps.
 There are scenarios in which your app is not distributed through android market for example apps
+
 Which are used by Firms or a group for private use.Under such scenarios there should be some mechanism 
 to update and install new version of app whenever it is available.
 
