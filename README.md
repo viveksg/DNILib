@@ -9,9 +9,11 @@ Which are used by Firms or a group for private use.Under such scenarios there sh
 to update and install new version of app whenever it is available.
 
 What you need?
+==============
 A server for hosting APK file of android app and a simple script .
 
 How does it works?
+==================
 1. This library comes with a service which communicates with server 
    And get the Latest version code and the link at which the APK file is hosted.
 
@@ -33,6 +35,7 @@ How does it works?
 
 
 Script Code:
+============
 The backend script must print the 
 1. Version code.
 2. Link to the APK fie
@@ -48,7 +51,7 @@ See the sample script in Php.
 
 
 Specifications for android manifest file
-
+========================================
 Following permissions are required in android manifest file
 
 
@@ -65,7 +68,7 @@ Following permissions are required in android manifest file
 
 
 Library Usage from the Activity.
-
+================================
 Tasks in  onCreate Method  
  1. Instantiate the Manager object .
  2. Call Manager.setUpdateCheckURL(String update_check_url) and provide the link to update check script hosted on server
