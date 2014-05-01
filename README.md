@@ -41,7 +41,7 @@ How does it works?
 
 Script Code
 ============
-
+([See SampleScript.php](https://github.com/viveksg/DNILib/blob/master/SampleScript.php))
 The backend script must print 
 -------------------------------------
 1. Version code.
@@ -85,12 +85,11 @@ Library Usage from the Activity.
 
 Tasks in  onCreate Method  
 ---------------------------------------------
- 1. Instantiate the Manager object .
+ 1. Instantiate the Manager class .
  2. Call Manager.setUpdateCheckURL(String update_check_url) and provide the link to update check script hosted on server
-    Note: Here the URL should contain only the val_key parameter with value. The version information is added automatically
-          By Manager. 
- 3. Instantiate UpdateCheckBroadcastReceiver object 
- 4. Instantiate DownloadBroadcastReceiver object
+    Note: Here the URL should contain only the val_key parameter with value. The version information is added automatically By Manager. 
+ 3. Instantiate UpdateCheckBroadcastReceiver class
+ 4. Instantiate DownloadBroadcastReceiver class
 
 Tasks in onStart method
 ---------------------------------------------
