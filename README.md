@@ -8,6 +8,11 @@ There are scenarios in which your app is not distributed through android market 
 Which are used by Firms or a group for private use.Under such scenarios there should be some mechanism 
 to update and install new version of app whenever it is available.
 
+DOWNLOAD
+--------------
+[DNILib.jar](http://goo.gl/1jV6f3)
+
+
 What you need?
 ==============
 A server for hosting APK file of android app and a simple script .
