@@ -78,6 +78,7 @@ Tasks in  onCreate Method
  4. Instantiate DownloadBroadcastReceiver object
 
 Tasks in onStart method
+---------------------------------------------
 1. Register UpdateCheckBroadcastReceiver.
 2. Register DownloadBroadcastReceiver.
 3. call Manager.checkUpdates() method to initiate update check process.
