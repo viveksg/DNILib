@@ -34,9 +34,11 @@ How does it works?
 6. On positive response the app is installed on the android device
 
 
-Script Code:
+Script Code
 ============
-The backend script must print the 
+
+The backend script must print 
+-------------------------------------
 1. Version code.
 2. Link to the APK fie
 The sample script receives two parameters
@@ -69,7 +71,10 @@ Following permissions are required in android manifest file
 
 Library Usage from the Activity.
 ================================
+
+
 Tasks in  onCreate Method  
+---------------------------------------------
  1. Instantiate the Manager object .
  2. Call Manager.setUpdateCheckURL(String update_check_url) and provide the link to update check script hosted on server
     Note: Here the URL should contain only the val_key parameter with value. The version information is added automatically
@@ -84,5 +89,6 @@ Tasks in onStart method
 3. call Manager.checkUpdates() method to initiate update check process.
 
 Tasks in onDestroy method
+----------------------------------------------
 1. Unregister UpdateCheckBroadcastReceiver.
 2. Unregister DownloadBroadcastReceiver.
