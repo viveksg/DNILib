@@ -64,7 +64,7 @@ See the sample script in Php.
 
 Specifications for android manifest file
 ========================================
-Following permissions are required in android manifest file (see viveksg/DNILib/SampleAndroidManifest.xml#1)
+Following permissions are required in android manifest file ([see SampleAndroidManifest.xml](https://github.com/viveksg/DNILib/blob/master/SampleAndroidManifest.xml))
 
 
      <uses-permission android:name="android.permission.INTERNET"/>
@@ -81,7 +81,7 @@ Following permissions are required in android manifest file (see viveksg/DNILib/
 
 Library Usage from the Activity.
 ================================
-
+([see SampleMainActivity.java](https://github.com/viveksg/DNILib/blob/master/SampleMainActivity.java))
 
 Tasks in  onCreate Method  
 ---------------------------------------------
