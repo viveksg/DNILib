@@ -53,7 +53,7 @@ The sample script receives two parameters
 1. version : the value of this parameter gives the version code of apk presently installed on android device
 2. val_key : This is the security key which will allow to show the latest version and APK link only on receiving authorized request. The script will match the value of val_key obtained from request and the value val_key stored at server and if there is match then the script will show Version code and link to APK file.
 
-both the values must be seperated by SINGLE '</br>' tag.
+both the values must be seperated by SINGLE `</br>` tag.
 
 See the sample script in Php.
 
