@@ -17,7 +17,7 @@ How does it works?
 1. This library comes with a service which communicates with server 
    And get the Latest version code and the link at which the APK file is hosted.
 
-2. Once the server_version_code is obtained the service matches it with locat_version_code.
+2. Once the server_version_code is obtained the service matches it with local_version_code.
    And if server_version_coder is higher then broadcast is sent to the activity that a new version
    Is available. 
 
